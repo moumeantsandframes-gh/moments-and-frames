@@ -1,0 +1,46 @@
+export const PACKAGES = [
+  {
+    name: 'Essence',
+    price: '$2,800',
+    tag: 'The Beginning',
+    features: [
+      '6 hours coverage',
+      '1 filmmaker',
+      'Cinematic highlight film (3–5 min)',
+      'Professional color grading',
+      'Online delivery',
+      '30-day revision window',
+    ],
+    highlight: false,
+  },
+  {
+    name: 'Legacy',
+    price: '$4,500',
+    tag: 'Most Beloved',
+    features: [
+      'Full day coverage',
+      '2 filmmakers',
+      'Feature film (8–12 min)',
+      'Ceremony & reception cut',
+      'Drone aerial footage',
+      'Raw footage archive',
+      'Rush delivery option',
+    ],
+    highlight: true,
+  },
+  {
+    name: 'Opus',
+    price: 'Custom',
+    tag: 'The Ultimate',
+    features: [
+      'Multi-day coverage',
+      'Full cinematic crew',
+      'Documentary-style feature',
+      'Trailer + social edits',
+      'Same-day highlight reel',
+      'Premium print USB box',
+      'Priority concierge service',
+    ],
+    highlight: false,
+  },
+]
